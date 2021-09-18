@@ -1,0 +1,111 @@
+.hide {
+    display: none;
+}
+
+.gamearea {
+    height: 90vh;
+    width: 80vw;
+    /* position: relative; */
+}
+
+.enemy {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(95, 11, 11);
+    border-radius: 50%;
+    position: absolute;
+    /* left: 5px; */
+}
+
+.enemymax {
+    background-color: red;
+}
+
+.enemymid {
+    background-color: orange;
+}
+
+.enemylow {
+    background-color: yellow;
+}
+
+.hero {
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(28, 28, 85);
+    border-radius: 50%;
+    position: absolute;
+    background-color: blue;
+    top: 50vh;
+    left: 50vw;
+}
+
+.playingarea {
+    height: 98vh;
+    width: 98vw;
+    border: 1px solid black;
+    /* position: relative; */
+    margin-left: 0.5vw;
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+.score-class {
+    position: absolute;
+    /* height: 50px; */
+    left: 90vw;
+    font-size: 20px;
+    background-color: rgb(235, 245, 97);
+    border-style: initial;
+    border: 1px rgb(119, 106, 32);
+    padding-left: 10px;
+    padding-right: 18px;
+}
+
+.startscreen {
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    border: 5px black;
+    border-style:double;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(231, 231, 25);
+    transition: 0.5s;
+}
+
+.startscreen:hover{
+    background-color: rgb(141, 141, 15);
+}
+
+body{
+    background-color: rgb(58, 83, 20);
+}
+
+.pre-game{
+    position: absolute;
+    display: inline-grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.information{
+    border: 1px solid black;
+    height: 98vh;
+    width: 30vw;
+    background-color: rgb(50, 50, 233);
+    font-size: 18px;
+    color: rgb(245, 236, 114);
+}
+
+h2{
+    margin-left: 6vw;
+}
+
+.no-use{
+    /* left: 10vw; */
+    height: 98vh;
+    border: 1px solid black;
+    width: 69vw;
+    background-color: rgba(183, 228, 92, 0.205);
+}
